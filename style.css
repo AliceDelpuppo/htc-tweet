@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    font-family: 'Roboto';
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: white;
+    padding: 161px 591px;
+}
+
+main {
+    border: 1px solid #DADDDF;
+    display: flex;
+    padding: 17px;
+}
+
+.content {
+    margin-right: 84px;
+}
+
+.image {
+    margin-right: 12px;
+}
+
+.content .header {
+    display: flex;
+    font-size: 15px;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.content .header img {
+    margin-right: 6px;
+}
+
+.content .header .date {
+    font-size: 15px;
+    color: #536471;
+}
+
+.content .header .ball {
+    height: 4px;
+    width: 4px;
+    border-radius: 5px;
+    background-color: #536471;
+    margin-right: 3px;
+}
+
+.content h1 {
+    text-transform: capitalize;
+    font-size: 15px;
+    margin-right: 3px;  
+    color: #0F1419;
+}
+
+.content h2{
+    font-size: 15px;
+    font-weight: normal;
+    color: #536471;
+    margin-right: 3px;
+}
+
+.content .text {
+    font-size: 15px;
+    margin-bottom: 15px;
+    color: #0F1419;
+}
+
+.content .text span {
+    display: flex;
+    margin-top: 30px;
+}
+
+.content .footer {
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    color: #536471;
+}
+
+.content .footer .box {
+    display: flex;
+    align-items: center;
+}
+
+.content .footer .box img {
+    margin-right: 17px;
+}

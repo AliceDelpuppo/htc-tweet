@@ -6,15 +6,19 @@
     padding: 0px;
 }
 
+
 body {
     background-color: white;
-    padding: 161px 591px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 main {
     border: 1px solid #DADDDF;
-    display: flex;
     padding: 17px;
+    display: flex;
 }
 
 .content {
